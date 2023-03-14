@@ -1,0 +1,96 @@
+
+#app {
+    height: 100%;
+}
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: IranYekanRegular;
+    src: url(fonts/IRANYekanRegular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: IranYekanBlack;
+    src: url(fonts/IRANYekanBlack.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal
+}
+@font-face {
+    font-family: IranYekanBold;
+    src: url(fonts/IRANYekanBold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal
+}
+@font-face {
+    font-family: IranYekanExtraBlack;
+    src: url(fonts/IRANYekanExtraBlack2.ttf) format('truetype');
+    font-weight: 950;
+    font-style: normal
+}
+@font-face {
+    font-family: IranYekanExtraBold;
+    src: url(fonts/IRANYekanExtraBold.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal
+}
+@font-face {
+    font-family: IranYekanLight;
+    src: url(fonts/IRANYekanLight.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal
+}
+@font-face {
+    font-family: IranYekanMedium;
+    src: url(fonts/IRANYekanMedium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal
+}
+@font-face {
+    font-family: IranYekanRegular;
+    src: url(fonts/IRANYekanRegular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+@font-face {
+    font-family: IranYekanThin;
+    src: url(fonts/IRANYekanThin.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal
+}
+@font-face {
+    font-family: ZenTokyoZoo;
+    src: url(./fonts/ZenTokyoZoo-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+@font-face {
+    font-family: AlfaSlab;
+    src: url(./fonts/AlfaSlabOne-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+.businessTitle{
+    font-family: AlfaSlab , serif !important;
+    font-size: 1.9rem !important;
+}
+*
+{
+    font-family: IranYekanRegular , serif;
+}
+
+
+
+
+

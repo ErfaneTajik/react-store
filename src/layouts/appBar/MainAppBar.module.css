@@ -1,0 +1,28 @@
+
+
+.muirtl-1d3z3hw-MuiOutlinedInput-notchedOutline {
+     display: none !important;
+     border-width: 100px !important;
+}
+.greyIcon{
+     color: #9e9e9e !important;
+}
+
+.customLink{
+    display: inline-block;
+    position: relative;
+    font-size: .75rem;
+}
+.customLink:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0;
+
+    transition: width .5s ease;
+}
+.customLink:hover:after {
+    width: 100%;
+    background: #ef5661;
+}
