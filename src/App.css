@@ -83,7 +83,9 @@ body {
 }
 .businessTitle{
     font-family: AlfaSlab , serif !important;
-    font-size: 1.9rem !important;
+    font-size: 150% !important;
+    margin-bottom:10px;
+    padding-bottom: 10px;
 }
 *
 {
@@ -91,6 +93,11 @@ body {
 }
 
 
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 8px !important;
+    }
+}
 
 
 

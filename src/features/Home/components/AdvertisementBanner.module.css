@@ -1,0 +1,6 @@
+.roundedImage{
+    border-radius: 9px !important;
+}
+.addImage{
+    object-fit: contain !important;
+}

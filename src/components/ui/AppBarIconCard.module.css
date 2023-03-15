@@ -1,0 +1,10 @@
+.myButton:hover{
+    background-color: #00000000 !important;
+}
+
+.myPaper:hover{
+    background-color:  #eeeeee;
+}
+.myButton{
+    min-width: 5px !important;
+}
